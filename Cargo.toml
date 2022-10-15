@@ -49,3 +49,6 @@ opt-level = 3
 inherits = "release"
 lto = true
 codegen-units = 1
+
+[patch."https://github.com/paritytech/substrate"]
+frame-support = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
