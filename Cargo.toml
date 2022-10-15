@@ -51,4 +51,42 @@ lto = true
 codegen-units = 1
 
 [patch."https://github.com/paritytech/substrate"]
+frame-executive = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
 frame-support = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+frame-system = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+frame-system-rpc-runtime-api = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+pallet-asset-tx-payment = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+pallet-assets = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+pallet-authorship = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+pallet-balances = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+pallet-transaction-payment = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sc-chain-spec = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sc-client-api = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sc-consensus = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sp-consensus-aura = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sp-core = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sc-executor = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sp-io = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sc-network = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sc-rpc = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sp-runtime = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sc-service = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sp-std = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sc-tracing = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+
+
+sc-transaction-pool = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sc-transaction-pool-api = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sp-arithmetic = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sp-blockchain = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sp-keyring = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sp-state-machine = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sp-timestamp = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sp-tracing = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sp-trie = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+substrate-test-client = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+
+sp-maybe-compressed-blob = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+
+sp-api = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
+sp-consensus = { git = "https://github.com/blasrodri/substrate", rev = "540610eda440168b10ad6c07f947bc1ba73cff92" }
